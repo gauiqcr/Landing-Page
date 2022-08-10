@@ -1,0 +1,149 @@
+body {
+    margin:0;
+    display:flex;
+    flex-direction: column;
+}
+.header,
+.hero-section,
+.footer
+{
+    padding:0 20%;
+    background-color: #1F2937;
+}
+.picture-section,
+.quote-section,
+.signup-section {
+    padding:0 20%;
+}
+.header {
+    display:flex;
+    align-items: center;
+    gap: 16px;
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+.push-right {
+    margin-left:auto;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+.hero-section .main-text {
+    font-size:48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.header .link,
+.hero-section .secondary-text,
+button,
+.signup-box {
+    text-decoration: none;
+    color:#E5E7EB;
+    font-size:18px;
+}
+.hero-section {
+    display:flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.hero-statement {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    align-items: flex-start;
+}
+.picture-section {
+    text-align: center;
+}
+.picture-section h2{
+    font-size:36px;
+    font-weight:bolder;
+    color: #1F2937
+}
+.pictures {
+    display:flex;
+    justify-content: center;
+    gap :16px;
+}
+.pictures img
+{
+    border:8px solid;
+    border-color:lightblue;
+    border-radius: 16px;
+}
+
+.quote-section{
+    margin-top:5%;
+    padding: 7% 30%;
+    background-color: #E5E7EB;
+}
+.quote {
+    font-size: 36px;
+    font-style:italic;
+    font-weight: light;
+    color: #1F2937;
+}
+.author {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+}
+.signup-section
+{
+    padding:5% 25%;
+}
+.signup-box
+{
+    border-radius: 24px;
+    padding: 16px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup-text
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+.footer{
+    display: flex;
+    padding:2% 0;
+    color: grey;
+    justify-content: center;
+    
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+img.Charizard
+{
+    width:500px;
+    height: auto;
+}
+button,
+.signup-box {
+    background-color:#3882F6;
+}
+button {
+    flex-shrink: 0;
+    width: 100px;
+    height: 40px;
+    border:none;
+    border-radius: 16px;
+    padding: 8px;
+}
+.signup-box button {
+    border: solid;
+    border-color:#F9FAF8;
+}
+p, h3 {
+    margin:0;
+}
